@@ -1,0 +1,17 @@
+.citizen-row {
+    display: grid;
+    grid-template-columns: 50px 100px 50px 200px 100px 100px;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .citizen-row > div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .citizen-header {
+    font-weight: bold;
+  }
+  
